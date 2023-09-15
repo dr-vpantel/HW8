@@ -79,4 +79,4 @@ PrintArray(array);
 
 int minSumRowIndex = MinSumRowIndex(array);
 Console.WriteLine();
-Console.WriteLine($"Индекс строки с наименьшей суммой элементов - {minSumRowIndex}");
+Console.WriteLine($"Строка с наименьшей суммой элементов - {minSumRowIndex + 1}");
