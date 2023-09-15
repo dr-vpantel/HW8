@@ -36,24 +36,6 @@ void PrintMatrix(int[,] arr)
     }
 }
 
-// void SortRowElements(int[,] mtr)
-// {
-//     for (int i = 0; i < mtr.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < mtr.GetLength(1); j++)
-//         {
-//             for (int k = 0; k < mtr.GetLength(1) - 1; k++)
-//             {
-//                 if (mtr[i, k] < mtr[i, k + 1])
-//                 {
-//                     int temp = mtr[i, k + 1];
-//                     mtr[i, k + 1] = mtr[i, k];
-//                     mtr[i, k] = temp;
-//                 }
-//             }
-//         }
-//     }
-// }
 void SortRowElements(int[,] mtr)
 {
     for (int i = 0; i < mtr.GetLength(0); i++)
